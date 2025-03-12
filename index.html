@@ -3,34 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asistente de Medicación</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Consultoría UNAN León CUR Somoto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Medichek</h1>
+        <h1>Consultoría UNAN León CUR Somoto</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section id="patient-info">
-            <h2>Información del Paciente</h2>
-            <form id="patient-form">
-                <label for="patient-name">Nombre del Paciente:</label>
-                <input type="text" id="patient-name" required>
-                
-                <label for="patient-disease">Enfermedad:</label>
-                <input type="text" id="patient-disease" required>
-                
-                <button type="submit">Obtener Información de Medicación</button>
-            </form>
-        </section>
-        <section id="medication-info">
-            <h2>Información de Medicación</h2>
-            <div id="medication-results"></div>
-        </section>
-    </main>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>La UNAN León CUR Somoto ofrece servicios de consultoría en diversas áreas para apoyar el desarrollo de la comunidad y las empresas locales.</p>
+    </section>
+
+    <section id="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Consultoría en gestión empresarial</li>
+            <li>Asesoría en proyectos de desarrollo</li>
+            <li>Capacitación y formación profesional</li>
+            <li>servicios estudiantiles</li>
+            
+        </ul>
+        <h3>¿Tienes alguna duda?</h3>
+        <form id="dudas-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="duda">Duda:</label>
+            <textarea id="duda" name="duda" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Para más información, contáctanos a través de:</p>
+        <ul>
+            <li>Teléfono: (505)8634-7729</li>
+            <li>Email: consultoria@unanleon.edu.ni</li>
+            <li>Dirección: Calle Principal, Somoto, Nicaragua</li>
+
+            <li>.</li>
+        </ul>
+    </section>
+
+
+
+
     <footer>
-        <p>&copy; 2025 Asistente de Medicación</p>
+
+
+        <p>&copy; 2025 Consultoría UNAN León CUR Somoto. Todos los derechos reservados.</p>
     </footer>
-    <script src="scripts/app.js"></script>
+
+    <!-- Tidio Chatbot Integration -->
+    <script src="//code.tidio.co/your-unique-code.js" async></script>
 </body>
 </html>
